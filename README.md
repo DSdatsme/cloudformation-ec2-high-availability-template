@@ -7,6 +7,8 @@ Creating AWS highly available infrastructure with ec2 auto scaling groups and lo
 - EC2
 - CloudFormation
 - IAM
+- VPC
+- S3
 
 ## Stack
 
@@ -49,3 +51,5 @@ If you are  tweaking the cloudformation template, use the following command to u
 ```bash
 bash update.sh
 ```
+
+> **NOTE**: make sure you specify your S3 bucket and upload `index.html` to your created S3 bucket.
